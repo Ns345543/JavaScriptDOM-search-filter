@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Cards</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="flex flex-col gap-10 items-center">
+      <!-- Search Input -->
+      <div class="search-container">
+        <input
+          id="search-input"
+          class="px-5 py-3 rounded outline-none bg-[#111] text-[#eee] placeholder-[#888] text-sm sm:text-base w-72 sm:w-96"
+          type="text"
+          placeholder="Search users..."
+        />
+      </div>
+
+      <!-- Cards Container -->
+      <div id="cards-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
